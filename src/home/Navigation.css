@@ -1,0 +1,44 @@
+.navBar {
+  background: #000;
+  color: #fff;
+  height: 100px;
+  font-family: "Avenir Next";
+}
+.navBar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 45px;
+}
+.randomLink {
+    float: right;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+#red {
+  color: #ff3232;
+}
+#orange {
+  color: #ff9d1c;
+}
+#yellow {
+  color: #f5e23c;
+}
+#green {
+  color: #47d12c;
+}
+#babyblue {
+  color: #a3b8ff;
+}
+#blue {
+  color: #3258ff;
+}
+#purple {
+  color: #8132ff;
+}

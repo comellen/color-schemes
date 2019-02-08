@@ -1,0 +1,64 @@
+.homeText{
+    -webkit-animation: color-change 4s infinite;
+    -moz-animation: color-change 4s infinite;
+    -o-animation: color-change 4s infinite;
+    -ms-animation: color-change 4s infinite;
+    animation: color-change 4s infinite;
+    animation-direction: alternate-reverse;
+
+    font-family: 'Avenir Next';
+    font-size: 5em;
+    font-weight: bold;
+    position: relative;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: #ff3232; }
+    14.29% { color: #ff9d1c; }
+    28.57% { color: #f5e23c; }
+    42.86% { color: #47d12c; }
+    57.14% { color: #a3b8ff; }
+    71.43% { color: #3258ff; }
+    85.72% { color: #8132ff; }
+    100% { color: #ffa3fa; }
+}
+@-moz-keyframes color-change {
+    0% { color: #ff3232; }
+    14.29% { color: #ff9d1c; }
+    28.57% { color: #f5e23c; }
+    42.86% { color: #47d12c; }
+    57.14% { color: #a3b8ff; }
+    71.43% { color: #3258ff; }
+    85.72% { color: #8132ff; }
+    100% { color: #ffa3fa; }
+}
+@-ms-keyframes color-change {
+    0% { color: #ff3232; }
+    14.29% { color: #ff9d1c; }
+    28.57% { color: #f5e23c; }
+    42.86% { color: #47d12c; }
+    57.14% { color: #a3b8ff; }
+    71.43% { color: #3258ff; }
+    85.72% { color: #8132ff; }
+    100% { color: #ffa3fa; }
+}
+@-o-keyframes color-change {
+    0% { color: #ff3232; }
+    14.29% { color: #ff9d1c; }
+    28.57% { color: #f5e23c; }
+    42.86% { color: #47d12c; }
+    57.14% { color: #a3b8ff; }
+    71.43% { color: #3258ff; }
+    85.72% { color: #8132ff; }
+    100% { color: #ffa3fa; }
+}
+@keyframes color-change {
+    0% { color: #ff3232; }
+    14.29% { color: #ff9d1c; }
+    28.57% { color: #f5e23c; }
+    42.86% { color: #47d12c; }
+    57.14% { color: #a3b8ff; }
+    71.43% { color: #3258ff; }
+    85.72% { color: #8132ff; }
+    100% { color: #ffa3fa; }
+}

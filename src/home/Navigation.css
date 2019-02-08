@@ -3,6 +3,8 @@
   color: #fff;
   height: 100px;
   font-family: "Avenir Next";
+  position: sticky;
+  width: 100%;
 }
 .navBar a {
     text-decoration: none;
@@ -21,24 +23,24 @@
     font-size: 45px;
 }
 
-#red {
+#logoRed {
   color: #ff3232;
 }
-#orange {
+#logoOrange {
   color: #ff9d1c;
 }
-#yellow {
-  color: #f5e23c;
+#logoLightyellow {
+  color: #fff453;
 }
-#green {
+#logoGreen {
   color: #47d12c;
 }
-#babyblue {
+#logoBabyblue {
   color: #a3b8ff;
 }
-#blue {
+#logoBlue {
   color: #3258ff;
 }
-#purple {
+#logoPurple {
   color: #8132ff;
 }

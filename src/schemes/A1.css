@@ -1,13 +1,11 @@
-.container {
-  cursor: none;
-}
 .colorBar {
   margin: 0;
   padding: 0;
-  height: 10vh;
+  height: 100px;
   width: 100%;
 }
 #red {
+  margin-top: 100px;
   background-color: #ff3232;
 }
 #orange {

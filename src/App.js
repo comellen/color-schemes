@@ -6,9 +6,6 @@ import Navigation from './home/Navigation';
 import A1 from './schemes/A1';
 
 export default class App extends Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (

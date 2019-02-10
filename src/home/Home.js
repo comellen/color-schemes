@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
 
-const Home = (props) => {
+const Home = () => {
     return (
-        <div class="homeText">
-            colors
+        <div class="home">
+            <h1 class="homeText">colors</h1>
         </div>
     );
 }

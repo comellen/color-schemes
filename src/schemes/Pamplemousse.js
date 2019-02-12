@@ -5,12 +5,12 @@ import './Pamplemousse.css';
 const Pamplemousse = () => {
     return (
         <Fade left cascade>
-            <div class="colorBar" id="grapefruitLC"></div>
-            <div class="colorBar" id="pinkLC"></div>
-            <div class="colorBar" id="yellowLC"></div>
-            <div class="colorBar" id="tealLC"></div>
-            <div class="colorBar" id="blueLC"></div>
-            <div class="colorBar" id="navyLC"></div>
+            <div className="colorBar" id="grapefruitLC"></div>
+            <div className="colorBar" id="pinkLC"></div>
+            <div className="colorBar" id="yellowLC"></div>
+            <div className="colorBar" id="tealLC"></div>
+            <div className="colorBar" id="blueLC"></div>
+            <div className="colorBar" id="navyLC"></div>
         </Fade>
     );
 }

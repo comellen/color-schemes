@@ -39,6 +39,12 @@
     background-color: #666;
 }
 
+.colorBar {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+}
 
 @-webkit-keyframes color-change {
     0% { color: #ff3232; }

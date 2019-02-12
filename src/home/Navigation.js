@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
+import RoutesArray from './RoutesArray';
 import './Navigation.css';
 
 export default class Navigation extends Component {
 
     randomRoute = () => {
-        let routes = [
-            "/A1",
-            "/pamplemousse"
-        ];
-        let r = parseInt(Math.random() * routes.length);
-        return routes[r];
+        let r = parseInt(Math.random() * RoutesArray.length);
+        return RoutesArray[r].path;
     }
     
     render() {

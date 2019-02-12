@@ -4,8 +4,8 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div class="home">
-            <h1 class="homeText">colors</h1>
+        <div>
+            {/* <h1 class="homeText">colors</h1> */}
             <LinkList />
         </div>
     );

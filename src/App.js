@@ -12,7 +12,7 @@ export default class App extends Component {
     return (
       <div>
         <Navigation />
-        <div className="colorContainer">
+        <div className="container">
           <Router>
             <Switch>
               <Route exact path="/">

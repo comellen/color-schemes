@@ -1,12 +1,3 @@
-.home {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-}
-
 .homeText{
     -webkit-animation: color-change 4s infinite;
     -moz-animation: color-change 4s infinite;
@@ -15,10 +6,39 @@
     animation: color-change 4s infinite;
     animation-direction: alternate-reverse;
 
-    font-family: 'Avenir Next';
+    font-family: "Avenir Next", sans-serif;
     font-size: 5em;
     font-weight: bold;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }
+
+.linkList {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    text-align: center;
+    list-style: none;
+    font-size: 5em;
+    font-weight: 600;
+    font-family: 'Avenir Next', sans-serif;
+
+}
+.linkList li {
+    height: 100px;
+}
+.linkList li:nth-child(even) {
+    background-color: #999;
+}
+.linkList li:nth-child(odd) {
+    background-color: #666;
+}
+
 
 @-webkit-keyframes color-change {
     0% { color: #ff3232; }

@@ -5,7 +5,8 @@ export default class Navigation extends Component {
 
     randomRoute = () => {
         let routes = [
-            "/A1"
+            "/A1",
+            "/pamplemousse"
         ];
         let r = parseInt(Math.random() * routes.length);
         return routes[r];

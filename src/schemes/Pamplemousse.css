@@ -1,0 +1,24 @@
+.colorBar {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+}
+#pinkLC {
+  background-color: #ff898a;
+}
+#grapefruitLC {
+    background-color: #f9584c;
+}
+#yellowLC {
+    background-color: #fdd67b;
+}
+#navyLC {
+ background-color: #282a3b;
+}
+#blueLC {
+    background-color: #0d68c1;
+}
+#tealLC {
+    background-color: #11abad;
+}

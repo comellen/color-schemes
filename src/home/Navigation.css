@@ -1,7 +1,7 @@
 .navBar {
-  background: #000;
-  color: #fff;
-  height: 100px;
+  background: #fff;
+  color: #333;
+  height: 60px;
   font-family: "Avenir Next";
   position: fixed;
   top: 0;
@@ -9,40 +9,64 @@
   z-index: 9000;
 }
 .navBar a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 20px;
-    vertical-align: middle;
+  text-decoration: none;
+  color: #333;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+.navBar a:hover {
+  color: #333333b4;
 }
 .logo {
-    float: left;
-    font-weight: bold;
-    font-size: 45px;
+  float: left;
+  font-weight: bold;
+  font-size: 45px;
 }
 .randomLink {
-    float: right;
-    font-weight: bold;
-    font-size: 45px;
+  float: right;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 #logoRed {
   color: #ff3232;
 }
+#logoRed:hover {
+  color: #ff3232b4;
+}
 #logoOrange {
   color: #ff9d1c;
+}
+#logoOrange:hover {
+  color: #ff9d1cb4;
 }
 #logoLightyellow {
   color: #fff453;
 }
+#logoLightyellow:hover {
+  color: #fff453b4;
+}
 #logoGreen {
   color: #47d12c;
+}
+#logoGreen:hover {
+  color: #47d12cb4;
 }
 #logoBabyblue {
   color: #a3b8ff;
 }
+#logoBabyblue:hover {
+  color: #a3b8ffb4;
+}
 #logoBlue {
   color: #3258ff;
 }
+#logoBlue:hover {
+  color: #3258ffb4;
+}
 #logoPurple {
   color: #8132ff;
+}
+#logoPurple:hover {
+  color: #8132ffb4;
 }

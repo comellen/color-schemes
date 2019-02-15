@@ -6,6 +6,7 @@ import Navigation from './home/Navigation';
 import A1 from './schemes/A1';
 import Pamplemousse from './schemes/Pamplemousse';
 import Stutz from './schemes/Stutz';
+import Seventies from './schemes/Seventies';
 
 export default class App extends Component {
 
@@ -27,6 +28,9 @@ export default class App extends Component {
               </Route>
               <Route path="/stutz">
                 <Stutz />
+              </Route>
+              <Route path="/seventies">
+                <Seventies />
               </Route>
             </Switch>
           </Router>

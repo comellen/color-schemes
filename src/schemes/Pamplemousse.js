@@ -16,5 +16,4 @@ const Pamplemousse = () => {
         </Fade>
     );
 }
-
 export default Pamplemousse;

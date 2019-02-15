@@ -22,5 +22,4 @@ const A1 = () => {
         </Fade>
     );
 }
-
 export default A1;

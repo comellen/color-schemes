@@ -15,5 +15,4 @@ const Stutz = () => {
         </Fade>
     );
 }
-
 export default Stutz;
